@@ -179,8 +179,7 @@ No, the pricing is the same for HDInsight on either OS.
 * A large community and ecosystem for support
 * Ability to exercise active development by the open-source community for Hadoop and other big data technologies
 
-### Does HDInsight on Linux provide additional functionality beyond what is available in HDInsight on Windows?
-Starting with HDInsight version 3.4, Microsoft has released HDInsight only on the Linux OS. As a result, some of the components within HDInsight are available for Linux only. These include Apache Ranger, Kafka, Interactive Query, Spark, HDInsight applications, and Azure Data Lake Store as the primary file system. 
+### Does HDInsight on Linux provide additional functionality beyond what is available in HDInsight on Windows?Starting with HDInsight version 3.4, Microsoft has released HDInsight only on the Linux OS. As a result, some of the components within HDInsight are available for Linux only. These include Apache Ranger, Kafka, Interactive Query, Spark, HDInsight applications, and Azure Data Lake Store as the primary file system. 
 
 ## Service level agreement for HDInsight cluster versions
 The service level agreement (SLA) is defined in terms of a _support window_. The support window is the period of time that an HDInsight cluster version is supported by Microsoft Customer Service and Support. If the version has a _support expiration date_ that has passed, the HDInsight cluster is outside the support window. For more information about supported versions, see the list of [supported HDInsight cluster versions](hdinsight-migrate-from-windows-to-linux.md). The support expiration date for a specified HDInsight version X (after a newer X+1 version is available) is calculated as the later of:  
@@ -226,7 +225,7 @@ The following tables list the default virtual machine (VM) sizes for HDInsight c
 
 * All supported regions except Brazil South and Japan West:
 
-  | Cluster type | Hadoop | HBase | Interactive Query | Storm | Spark | ML Server |
+  | Cluster type | Hadoop | HBase | Interactive Query | Storm | Spark | ML Service |
   | --- | --- | --- | --- | --- | --- | --- |
   | Head: default VM size |D3 v2 |D3 v2 | D13, D14 |A4 v2 |D12 v2 |D12 v2 |
   | Head: recommended VM sizes |D3 v2, D4 v2, D12 v2 |D3 v2, D4 v2, D12 v2  | D13, D14 |A4 v2, A8 v2, A2m v2 |D12 v2, D13 v2, D14 v2 |D12 v2, D13 v2, D14 v2 |
